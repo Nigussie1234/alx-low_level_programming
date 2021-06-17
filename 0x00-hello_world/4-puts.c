@@ -1,9 +1,8 @@
-#!/bin/bash
-# include<stdio.h>
+# include <studio.h>
 int main()
 {
-puts("Programming is like building multilingual puzzle");
+    puts("\"Programming is like building a multilingual puzzle")
 
-getchar();
-return 0;
+    getchar();
+    return 0;
 }
