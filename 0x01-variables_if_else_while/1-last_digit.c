@@ -12,7 +12,7 @@
 int main(void)
 {
 int n, digit;
-digit=2*n;
+digit=n % 10;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (digit > 5)
