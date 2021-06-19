@@ -3,8 +3,10 @@
 #include <time.h>
 /**
 *main - determines the number to be positive,negative or zero
-*Description - the program evaluates input integer numbers
-*Return - the program returns 0 (success)
+*
+*Description: the program evaluates input integer numbers
+*
+*Return: 0 (success)
 */
 int main(void)
 {
