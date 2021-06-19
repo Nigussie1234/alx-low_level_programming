@@ -1,0 +1,7 @@
+#include <stdio.h>
+/**
+*main - uses to give  both lowercase and uppercase letters
+*
+*Description: the program uses only getchar
+*
+*Return: 0 (success)
