@@ -1,32 +1,22 @@
 #include <stdio.h>
 /**
-*main - prints combination of single digit numbers
+*main - print combination of single  digit  numbers
 *
-*Description: prints the combination of  single digit numbers
+*Description: print combination of single digit numbers
 *
-Return: 0 (success)
+*Return: 0 (success)
 */
 int main(void)
 {
-int j, i;
-i = 48;
-j = 48;
-while (i <= 57)
+int num;
+for (num = 0; num <= 9; num++)
 {
-j = 48;
-while (j <= 57)
-{
-putchar (i);
-putchar (j);
-if (i < 57 || j < 57)
-{
-putchar (44);
-putchar (32);
+putchar ((num % 10) + '0')
+if (num == 9)
+continue;
+putchar (',');
+putchar (' ');
 }
-j++;
-}
-i++;
-}
-putchar (10);
+putchar ('\n');
 return (0);
 }
