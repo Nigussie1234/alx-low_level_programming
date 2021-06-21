@@ -8,11 +8,15 @@
 */
 int main(void)
 {
-int j;
-if (j = 48; j <= 57; j++)
-putchar (j);
-else if (j = 97; j <= 102; j++)
-putchar (j);
+int j = 0;
+while (j < 48)
+{
+if (j = 10)
+putchar (j + '0');
+else if (j > 41)
+putchar (j -10 +'A');
+j++;
+}
 putchar (10);
 return (0);
 }
