@@ -9,10 +9,10 @@
 int main(void)
 {
 int j;
-for (j = 97; j <= 102; j++)
-{
+if (j = 48; j <= 57; j++)
 putchar (j);
-}
+else if (j = 97; j <= 102; j++)
+putchar (j);
 putchar (10);
 return (0);
 }
