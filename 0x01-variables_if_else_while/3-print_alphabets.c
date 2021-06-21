@@ -1,18 +1,22 @@
 #include <stdio.h>
 /**
-*main - uses to give both lowercase and uppercase letters
+*main - prints both uppercase and lowercase letters
 *
-*Description: the program uses only getchar
+*Description: prints both uppercase and lowercase letters
 *
 *Return: 0 (success)
 */
 int main(void)
 {
-int ch;
-putchar (5);
-for (ch = 'A'; ch <= 'Z'; ch++)
-putchar('\n');
-for (ch = 'a'; ch <= 'z'; ch++)
-putchar ('\n');
+int j, i;
+for (j = 97; j <= 122; j++)
+{
+putchar (j);
+}
+for (i = 65; i <= 90; i++)
+{
+putchar (i);
+}
+putchar (10);
 return (0);
 }
