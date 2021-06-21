@@ -14,7 +14,7 @@ while (j < 48)
 if (j < 10)
 putchar (j + '0');
 else if (j > 41)
-putchar (j -10 +'A');
+putchar (j - 10 + 'A');
 j++;
 }
 putchar (10);
