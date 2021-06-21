@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*Main - displays all single digit numbers
+*main - displays all single digit numbers
 *
 *Description: displays only numbers from 0 to 9
 *
@@ -15,6 +15,6 @@ while (i < 58)
 putchar (i);
 i++;
 }
-putchar (1);
+putchar (10);
 return (0);
 }
