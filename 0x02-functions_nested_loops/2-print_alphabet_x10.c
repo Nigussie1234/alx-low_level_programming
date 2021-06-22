@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-*prin_alphabet_x10 - prints 10 times lowercase letters
+*print_alphabet_x10 - prints 10 times lowercase letters
 *
 *Description: prints 10 times lowercase letters
 *
