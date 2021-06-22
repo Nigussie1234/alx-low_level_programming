@@ -6,7 +6,7 @@
 *
 *Return: 0 (success)
 */
-void print_alphabet_×10(void)
+void print_alphabet_x10(void)
 {
 int x;
 int y;
