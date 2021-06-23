@@ -8,12 +8,17 @@
 */
 int main(void)
 {
-int n, first = 1, second = 2, next;
-for (n = 1; n <= 50; n++)
+  int n, first = 0, second = 1, next;
+for (n = 0; n <= 49; n++)
+{
+if (n <= 1)
+next = n;
+else
 {
 next = first + second;
 first = second;
 second = next;
+}
 printf("%d\n", next);
 }
 return (0);
