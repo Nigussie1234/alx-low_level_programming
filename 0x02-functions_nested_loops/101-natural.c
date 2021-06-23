@@ -23,6 +23,6 @@ if (i % 15 == 0)
 sum15 += i;
 }
 }
-printf("%li\n", sum3 + sum5 - sum15);
+printf("%d\n", sum3 + sum5 - sum15);
 return (0);
 }
