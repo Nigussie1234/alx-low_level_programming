@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-  int n, first = 0, second = 1, next;
+int n, first = 0, second = 1, next;
 for (n = 0; n <= 49; n++)
 {
 if (n <= 1)
