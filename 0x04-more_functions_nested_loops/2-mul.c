@@ -4,9 +4,9 @@
  *@a: a is an integer
  *@b: b is an integer
  *
- *Return: a*b
+ *Return: result of a times b
  */
 int mul(int a, int b)
 {
-return (a*b);
+return (a * b);
 }
