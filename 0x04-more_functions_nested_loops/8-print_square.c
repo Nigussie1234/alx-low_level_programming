@@ -5,7 +5,7 @@
  *
  *Return: void
  */
-void print_diagonal(int size)
+void print_square(int size)
 {
 int l = 0;
 if (size > 0)
