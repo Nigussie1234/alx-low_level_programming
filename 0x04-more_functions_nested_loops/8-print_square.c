@@ -13,7 +13,7 @@ if (size > 0)
 {
 while (l < size)
 {
-for (m = 0; m < n; m++)
+for (m = 0; m < l; m++)
 {
 _putchar ('#');
 }
