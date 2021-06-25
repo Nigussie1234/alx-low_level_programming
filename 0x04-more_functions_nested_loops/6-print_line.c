@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  *print_line - draws a straight line
- *
+ *@n: length of a line
  *
  *Return: void
  */
