@@ -7,17 +7,23 @@
  */
 void print_triangle(int size)
 {
-int l;
-int m;
+int line = 0;
+int spaces;
+int hashes;
 if (size > 0)
 {
-for (l = 0; l < size; l++)
+while (line < size)
 {
-for (m = 0; m < size; m++)
+for (spaces = size - 1; spaces > line; spaces--)
+{
+_putchar (' ');
+}
+for (hashes = 0; hashes < line + 1; hashes++)
 {
 _putchar ('#');
 }
-_putchar ('\n');
+_putchar('\n');
+line++;
 }
 }
 else
