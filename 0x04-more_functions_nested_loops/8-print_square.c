@@ -5,14 +5,19 @@
  *
  *Return: void
  */
-void print_square(int size)
+oid print_square(int size)
 {
 int l = 0;
+int m;
 if (size > 0)
 {
 while (l < size)
 {
+for (m = 0; m < n; m++)
+{
 _putchar ('#');
+}
+_putchar ('\n');
 l++;
 }
 }
