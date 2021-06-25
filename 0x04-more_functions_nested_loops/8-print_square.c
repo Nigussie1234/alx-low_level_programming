@@ -5,7 +5,7 @@
  *
  *Return: void
  */
-oid print_square(int size)
+void print_square(int size)
 {
 int l = 0;
 int m;
