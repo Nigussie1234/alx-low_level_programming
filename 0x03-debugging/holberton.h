@@ -1,4 +1,4 @@
-carrie@ubuntu:/debugging$ cat holberton.h
+/* carrie@ubuntu:/debugging$ cat holberton.h */
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
@@ -7,4 +7,4 @@ carrie@ubuntu:/debugging$ cat holberton.h
 void positive_or_negative(int i);
 
 #endif /* HOLBERTON_H */
-carrie@ubuntu:/debugging$
+/* carrie@ubuntu:/debugging$ */

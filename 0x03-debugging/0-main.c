@@ -15,4 +15,4 @@ positive_or_negative(i);
 
 return (0);
 }
-carrie@ubuntu:/debugging$ 
+/* carrie@ubuntu:/debugging$ */ 
