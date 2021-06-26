@@ -8,15 +8,21 @@
 */
 int main(void)
 {
-int num;
-for (num = 0; num <= 9; num++)
-{
-putchar ((num % 10) + '0')
-if (num == 9)
-continue;
-putchar (',');
-putchar (' ');
-}
-putchar ('\n');
-return (0);
+	int i;
+
+	i = 48;
+
+	while (i < 58)
+	{
+		putchar(i);
+		if (i != 57)
+		{
+		  putchar(44);
+			putchar(32);
+       	}
+		i++;
+	}
+
+	putchar(10);
+	return (0);
 }
