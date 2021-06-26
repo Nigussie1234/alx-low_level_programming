@@ -1,4 +1,3 @@
-/* carrie@ubuntu:/debugging$ cat main.c */
 #include "holberton.h"
 
 /**
@@ -15,4 +14,3 @@ positive_or_negative(i);
 
 return (0);
 }
-/* carrie@ubuntu:/debugging$ */ 
