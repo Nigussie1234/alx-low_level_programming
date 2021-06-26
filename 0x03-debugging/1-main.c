@@ -1,4 +1,3 @@
-/* carrie@ubuntu:/debugging$ cat 1-main.c */
 #include <stdio.h>
 
 /**
@@ -23,4 +22,3 @@ printf("Infinite loop avoided! \\o/\n");
 
 return (0);
 }
-/*carrie@ubuntu:/debugging$ */
