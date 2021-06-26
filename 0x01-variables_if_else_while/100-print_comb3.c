@@ -10,14 +10,15 @@ int main(void)
 {
 int i;
 int j;
+i = 48;
 for (j = 48; j <= 57; j++)
 {
-i = 48;
+i = j + 1;
 
 while (i <= 57)
 {
 putchar(i);
-if (i != 57)
+if (i < 57 || j < 56)
 {
 putchar(44);
 putchar(32);
