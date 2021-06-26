@@ -17,11 +17,12 @@ i = j + 1;
 
 while (i <= 57)
 {
-putchar(i);
+putchar (j);
+putchar (i);
 if (i < 57 || j < 56)
 {
-putchar(44);
-putchar(32);
+putchar (44);
+putchar (32);
 }
 i++;
 }
