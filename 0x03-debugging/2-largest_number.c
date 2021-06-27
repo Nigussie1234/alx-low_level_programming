@@ -11,9 +11,7 @@
 int largest_number(double a, double b, double c)
 {
 double largest;
-a = 972;
-b = -98;
-c = 0; 
+ 
 if (a > b && a  > c)
 {
 largest = a;
