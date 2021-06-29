@@ -7,15 +7,13 @@
  */
 void rev_string(char *s)
 {
-char s, r;
-int begin , end, count = 0 ;
+char r;
+int begin , end, i = 0;
 
-gets (s);
-
-while (s[count] != '\0')
-count ++;
-end = count - 1 ;
-for (begin = 0; begin < count; begin++)
+while (s[i] != '\0')
+i++;
+end = i - 1 ;
+for (begin = 0; begin < i; begin++)
 {
 r[begin] = s[end];
 end--;
