@@ -26,7 +26,7 @@ n = (l - 1) / 2;
 }   
 while (n <= l)
 {
-_putchar (str[j]);
+_putchar (str[n]);
 n++;
 }
 _putchar('\n');
