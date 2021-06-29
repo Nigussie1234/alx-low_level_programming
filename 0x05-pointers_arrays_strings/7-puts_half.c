@@ -19,15 +19,20 @@ l = i;
 if (l % 2 == 0)
 {  
 n = l / 2;
-}
-else
-{
-n = (l - 1) / 2;
-}   
 while (n <= l)
 {
 _putchar (str[n]);
 n++;
+}
+}
+else if
+{
+n = (l - 1) / 2;   
+while (n <= l)
+{
+_putchar (str[n]);
+n++;
+}
 }
 _putchar('\n');
 }
