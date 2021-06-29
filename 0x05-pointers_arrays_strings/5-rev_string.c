@@ -2,22 +2,27 @@
 
 /**
  * rev_string - function that reverses a string
- * @s: s is a character
+ * @s: s is a string
  * Return: void
  */
 void rev_string(char *s)
 {
-char r;
-int begin , end, i = 0;
+int i, last, half;
+char first, last;
 
+i = 0;
 while (s[i] != '\0')
-i++;
-end = i - 1 ;
-for (begin = 0; begin < i; begin++)
 {
-r[begin] = s[end];
-end--;
+i++;
 }
-r[begin] = '\0';
- 
+max = i - 1;
+half = max / 2;
+while (half >= 0)
+{
+first = s[max - half];
+last = s[half];
+s[half] = first;
+s[max - half] = last;
+half--;
+}
 }
