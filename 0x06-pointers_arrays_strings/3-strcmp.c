@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  *_strcmp - compares two strings
- * @s2t: string 2
+ * @s2: string 2
  * @s1: string 1
  *
  * Return: 1 or 0
