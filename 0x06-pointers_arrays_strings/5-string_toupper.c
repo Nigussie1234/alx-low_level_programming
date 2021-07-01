@@ -1,7 +1,7 @@
-x#include "holberton.h"
+#include "holberton.h"
 
 /**
- * upper_string - changes lowercase  string to uppercase
+ * string_toupper - changes lowercase  string to uppercase
  * @s: is a string
  * Return: void
  */
