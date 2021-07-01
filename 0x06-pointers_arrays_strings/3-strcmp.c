@@ -20,10 +20,10 @@ break;
 }
 n++;
 }
-if (m == 0 && s1[n] == '\0' && s2[n] == '\0')
+if (m == 0)
 {
-return 1;
+return 0;
 }
 else
-return 0;
+return 1;
 }
