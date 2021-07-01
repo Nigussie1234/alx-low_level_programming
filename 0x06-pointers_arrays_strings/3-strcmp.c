@@ -15,9 +15,10 @@ while (s1[n] != '\0' && s2[n] != '\0')
 {
 if (s1[n] != s2[n])
 {
-m++;
-n++;
+m = 1;
+break;
 }
+n++;
 }
 if (m == 0)
 {
@@ -26,4 +27,3 @@ return (0);
 else
 return (1);
 }
-
