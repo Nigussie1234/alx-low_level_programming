@@ -13,10 +13,10 @@
 void print_remaining_days(int month, int day, int year)
   
 {
-int days_in_feb = 28;
+int feb = 28;
 if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
 {
-days_in_feb = 29;
+feb = 29;
 }
 
 switch (month)
@@ -25,34 +25,34 @@ case 2:
 day += 31;
 break;
 case 3:
-day += 31+days_in_feb;
+day += 31 + feb;
 break;
 case 4:
-day += 31+days_in_feb+31;
+day += 31 + feb + 31;
 break;
 case 5:
-day += 31+days_in_feb+31+30;
+day += 31+ feb + 31 + 30;
 break;
 case 6:
-day += 31+days_in_feb+31+30+31;
+day += 31 + feb + 31 + 30 + 31;
 break;
 case 7:
-day += 31+days_in_feb+31+30+31+30;
+day += 31 + feb + 31 + 30 + 31 + 30;
 break;            
 case 8:
-day += 31+days_in_feb+31+30+31+30+31;
+day += 31 + feb + 31 + 30 + 31 + 30 + 31;
 break;
 case 9:
-day += 31+days_in_feb+31+30+31+30+31+31;
+day += 31 + feb + 31 + 30 + 31 + 30 + 31 + 31;
 break;
 case 10:
-day += 31+days_in_feb+31+30+31+30+31+31+30;            
+day += 31 + feb + 31 + 30 + 31 + 30 + 31 + 31 + 30;            
 break;            
 case 11:
-day += 31+days_in_feb+31+30+31+30+31+31+30+31;            
+day += 31 + feb + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31;            
 break;                        
 case 12:
-day += 31+days_in_feb+31+30+31+30+31+31+30+31+30;            
+day += 31 + feb + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30;            
 break;                                    
 }
 return (day);
