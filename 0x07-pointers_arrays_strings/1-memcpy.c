@@ -15,7 +15,7 @@ unsigned int i;
 for (i = 0; i < n; i++)
 {
 
-*char_dest++ = *char_src++;
+dest[i] = src[i];
 }
 
 return (dest);
