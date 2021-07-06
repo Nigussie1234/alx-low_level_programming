@@ -1,20 +1,3 @@
-
-aucontraire
-/
-holbertonschool-low_level_programming
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-holbertonschool-low_level_programming/0x06-pointers_arrays_strings/4-strpbrk.c
-@aucontraire
-aucontraire Add function that searches a string for any of a set of bytes
- 1 contributor
-27 lines (23 sloc)  429 Bytes
 #include "holberton.h"
 
 /**
