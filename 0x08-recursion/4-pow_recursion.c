@@ -12,8 +12,12 @@ if (y < 0)
 {
 return (-1);
 }
-else
+else if (y > 0);
 {
 return (x * _pow_recursion(x, (y -1)));
+}
+else
+{
+return (1);
 }
 }
