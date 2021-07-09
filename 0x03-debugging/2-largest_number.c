@@ -1,5 +1,5 @@
 #include "holberton.h"
-
+#include <stdio.h>
 /**
  * largest_number - returns the largest of 3 numbers
  * @a: first integer
@@ -28,8 +28,7 @@ largest = c;
 return (largest);
 }
 
-#include <stdio.h>
-#include "holberton.h"
+
 
 /**
  * main - prints the largest of 3 integers
