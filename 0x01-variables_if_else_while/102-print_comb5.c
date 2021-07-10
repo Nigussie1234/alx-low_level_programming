@@ -21,7 +21,7 @@ k = i;
 m = j + 1;
 while (k <= 57)
 {
-m = 48;
+
 while (m <= 57)
 {
 putchar (i);
@@ -36,6 +36,7 @@ putchar (32);
 }
 m++;
 }
+m = 48;
 k++;
 }
 j++;
