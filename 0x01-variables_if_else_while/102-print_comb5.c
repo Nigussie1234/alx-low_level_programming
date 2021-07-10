@@ -17,18 +17,18 @@ while (i <= 57)
 {
 while (j <= 57)
 {
-m = i;
+k = j + i;
 while (m <= 57)
 {
-k = j + 1;
+m = i;
 while (k <= 57)
 {
 putchar (i);
 putchar (j);
 putchar (32);
-putchar (m);
 putchar (k);
-if (k < 57 || m < 56 || i < 57 || j < 57)
+putchar (m);
+if (k < 57 || j < 56 || i < 57 || k < 57)
 {
 putchar (44);
 putchar (32);
