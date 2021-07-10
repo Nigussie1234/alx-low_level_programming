@@ -9,16 +9,16 @@
 
 int main(void)
 {
-int i;
-int j;
-int k;
-for (i = 48; i <= 57; i++)
+int i = 48;
+int j = 48;
+int k = 48;
+while (i <= 57)
 {
-j = i + 1;  
-for (j = 48; j <= 57; j++)
+j = i + 1;
+while (j <= 57)
 {
 k = j + 1;
-for (k = 48; k <= 57; k++)
+while (k <= 57)
 {
 putchar (i);
 putchar (j);
@@ -28,8 +28,11 @@ if (k < 57 || j < 56 || i < 55)
 putchar (44);
 putchar (32);
 }
+k++;
 }
+j++;
 }
+i++;
 }
 putchar (10);
 return (0);
