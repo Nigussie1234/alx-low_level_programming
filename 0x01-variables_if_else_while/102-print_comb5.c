@@ -26,8 +26,8 @@ while (k <= 57)
 putchar (i);
 putchar (j);
 putchar (32);
-putchar (k);
 putchar (m);
+putchar (k);
 if (k < 57 || m < 56 || i < 57 || j < 57)
 {
 putchar (44);
