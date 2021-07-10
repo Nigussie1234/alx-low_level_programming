@@ -18,10 +18,10 @@ while (i <= 57)
 while (j <= 57)
 {
 k = i;
+m = j + 1;
 while (m <= 57)
 {
 m = 48;
-m = j + i;
 while (m <= 57)
 {
 putchar (i);
