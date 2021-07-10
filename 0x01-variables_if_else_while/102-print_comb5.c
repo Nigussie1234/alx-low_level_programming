@@ -28,7 +28,7 @@ putchar (j);
 putchar (32);
 putchar (k);
 putchar (m);
-if (k < 57 || m < 56 || i < 55 || j < 56)
+if (k < 57 || m < 56 || i < 57 || j < 57)
 {
 putchar (44);
 putchar (32);
