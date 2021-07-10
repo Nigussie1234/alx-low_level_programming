@@ -10,13 +10,13 @@
 int main(void)
 {
 int i = 48;
-int j = 48;
-int k = 48;
-int m = 48;
+int j;
+int k;
+int m;
 
 while (i <= 57)
 {
-
+j = 48;
 while (j <= 57)
 {
 k = i;
@@ -38,7 +38,7 @@ putchar (32);
 }
 m++;
 }
-
+m = 48;
 k++;
 }
 j++;
