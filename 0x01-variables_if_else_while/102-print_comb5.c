@@ -15,7 +15,6 @@ int k = 48;
 int m;
 while (i <= 57)
 {
-j = i + 1;
 while (j <= 57)
 {
 m = i;
