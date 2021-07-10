@@ -9,12 +9,14 @@
 
 int main(void)
 {
-int i = 48;
-int j = 48;
-int k = 48;
+int i;
+int j;
+int k;
 int m;
+i = 48;
 while (i <= 57)
 {
+j = 48;
 while (j <= 57)
 {
 k = i;
@@ -29,7 +31,7 @@ putchar (j);
 putchar (32);
 putchar (k);
 putchar (m);
-if (k < 57 || j < 56 || i < 57 || k < 57)
+if (m < 57 || j < 56 || i < 57 || k < 57)
 {
 putchar (44);
 putchar (32);
