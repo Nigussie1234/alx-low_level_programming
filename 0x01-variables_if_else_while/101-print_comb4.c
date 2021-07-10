@@ -21,7 +21,7 @@ for (k = 48; k <= 57; k++)
 putchar (i);
 putchar (j);
 putchar (k);
-if (i != j; j != k; i != k)
+if (i != j && j != k && i != k)
 {
 putchar (44);
 putchar (32);
