@@ -17,11 +17,11 @@ while (i <= 57)
 {
 while (j <= 57)
 {
-k = j + i;
+k = i;
 while (m <= 57)
 {
-m = i;
-while (k <= 57)
+m = j + i;
+while (m <= 57)
 {
 putchar (i);
 putchar (j);
