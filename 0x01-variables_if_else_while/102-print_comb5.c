@@ -19,7 +19,7 @@ while (j <= 57)
 {
 k = i;
 m = j + 1;
-while (m <= 57)
+while (k <= 57)
 {
 m = 48;
 while (m <= 57)
