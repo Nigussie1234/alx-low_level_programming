@@ -20,7 +20,7 @@ while (j <= 57)
 m = i;
 while (m <= 57)
 {
-k = m + 1;
+k = j + 1;
 while (k <= 57)
 {
 putchar (i);
