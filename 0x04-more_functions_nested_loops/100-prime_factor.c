@@ -7,27 +7,30 @@
  *Return: 0
  */
 
-int main()
+#include <stdio.h>
+
+/**
+ * main - prints the highest prime factor of 612852475143
+ *
+ * Return: 0 if successful
+ */
+int main(void)
 {
-unsigned long n = 612852475143;
-int i = 2, largeprimefactor = 2;
- while (n != 1)
+unsigned long int prime = 612852475143;
+unsigned long int i = 3;
+
+while (i <= prime / 2)
 {
-if (n % i == 0)
+if (prime % i == 0)
 {
-while (n % i == 0)
+prime = prime / i;
+}
+else
 {
-n = n / i;
-/*    _putchaar (i); */
-if (i > largeprimefactor)
-{
-largeprimefactor = i;
+i += 2;
 }
 }
-}
-i++;
-}
-_putchar (largeprimefactor);
+_putchar (prime);
 _putchar ('\n');
 return (0);
 }
