@@ -7,34 +7,27 @@
  *Return: 0
  */
 
-void main()
+int main()
 {
-unsigned long n = 612852475143;                                                _putchar (largeprimefactor);                                                   _putchar ('\n');
-}
- 
-int largestprimefactor(unsigned long a)
+unsigned long n = 612852475143;
+int i = 2, largeprimefactor = 2;
+ while (n != 1)
 {
-int i = 2 ,largeprimefactor = 2;
-     
-while (a != 1)
+if (n % i == 0)
 {
-if (a % i == 0)
+while (n % i == 0)
 {
-while (a % i == 0)
-{
-a = a/i;
-                 
-_putchar (i);
-                 
+n = n / i;
+/*    _putchaar (i); */
 if (i > largeprimefactor)
 {
 largeprimefactor = i;
 }
 }
-} 
-         
+}
 i++;
 }
-     
-return largeprimefactor;
+_putchar (largeprimefactor);
+_putchar ('\n');
+return (0);
 }
