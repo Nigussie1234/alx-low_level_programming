@@ -1,0 +1,21 @@
+#include "holberton.h"
+#include <stdio.h>
+/**
+ *main - a program that multiplies two numbers
+ *@argc: argument count
+ *@argv: argument vector
+ *Description: print the result of the multiplication
+ *
+ *Return: 0
+ */
+
+int main(int argc, char *argv[])
+{
+int n;
+int m;
+int mul;
+mul = n * m;
+printf("%d\n", mul);
+
+return (0);
+}
