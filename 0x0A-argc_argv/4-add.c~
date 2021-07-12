@@ -1,10 +1,11 @@
 #include "holberton.h"
 #include <stdio.h>
+#include <stdlib.c>
 /**
- *main - a program that multiplies two numbers
+ *main - a program that adds positive numbers
  *@argc: argument count
  *@argv: argument vector
- *Description: print the result of the multiplication
+ *Description: program adds positive numbers
  *
  *Return: 0
  */
