@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- **str_concat - 
+ **str_concat - a function that concatenates two strings
  * @s1: string 1
  * @s2: string 2
  * Return: pointer to newly allocated space in memory or NULL
@@ -21,7 +21,7 @@ if (s2 == NULL)
 {
 s2 = '\0';
 }
-length1 = 0; 
+length1 = 0;
 while (*(s1 + length1) != '\0')
 {
 length1++;
