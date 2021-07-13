@@ -23,7 +23,7 @@ while (*(str + length) != '\0')
 length++;
 }
 
-str1 = malloc(length * sizeof(char) + 1);
+str1 = malloc(length *sizeof(char) + 1);
 if (str1 == NULL)
 return (NULL);
 
