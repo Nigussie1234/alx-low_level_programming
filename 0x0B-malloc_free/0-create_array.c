@@ -17,7 +17,7 @@ if (pointer == 0)
 {
 return (NULL);
 }
-if (pointer != '\0')
+if (size != '\0')
 {
 for (i = 0;i < size; i++)
 {
