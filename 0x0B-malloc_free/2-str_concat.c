@@ -46,7 +46,7 @@ for (i = 0; i < length2; i++)
 {
 string[i + length1] = s2[i];
 }
-string[i] = '\0';
+
 
 
 return (string);
