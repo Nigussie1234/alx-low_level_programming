@@ -13,8 +13,8 @@ void *malloc_checked(unsigned int b)
 void *king
 king = malloc(b);
 if (king == NULL)
-{
+
 exit(98);
-}
+
 return (king);
 }
