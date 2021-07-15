@@ -11,10 +11,10 @@
 void *malloc_checked(unsigned int b)
 {
 int *king
-king = malloc(b);
+voidg = malloc(b);
 if (king == NULL)
 {
-exit (98);
+exit(98);
 }
 return (king);
 }
