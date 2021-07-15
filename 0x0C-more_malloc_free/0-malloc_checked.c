@@ -10,8 +10,8 @@
 
 void *malloc_checked(unsigned int b)
 {
-int *king
-voidg = malloc(b);
+void *king
+king = malloc(b);
 if (king == NULL)
 {
 exit(98);
