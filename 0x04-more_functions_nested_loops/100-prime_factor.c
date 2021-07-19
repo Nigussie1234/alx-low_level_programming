@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  *main - prints the largest prime factor
  *
@@ -7,13 +8,6 @@
  *Return: 0
  */
 
-#include <stdio.h>
-
-/**
- * main - prints the highest prime factor of 612852475143
- *
- * Return: 0 if successful
- */
 int main(void)
 {
 unsigned long int prime = 612852475143;
