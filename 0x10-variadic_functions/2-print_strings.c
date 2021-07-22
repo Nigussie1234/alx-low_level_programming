@@ -25,7 +25,7 @@ for (i = 0; i < n; i++)
 {
 string = va_arg(args, char *);
 if (string == NULL)
-printf("nil");
+string = "(nil)";
 
 if (i != n - 1)
 {
