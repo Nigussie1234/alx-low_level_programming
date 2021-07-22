@@ -1,9 +1,13 @@
-#include <unistd.h>
+section .data
 
-#define STDOUT 1
+message db "Hello, Holberton", 10
 
-int main()
-{
-write(STDOUT, "Hello,Holberton\n", 13);
-_exit (0);
-}
+section .text
+
+global _start
+_start:
+mov rax, 1
+mov rdi, 1
+mov rsi, message
+mov rdx, 14
+syscall
