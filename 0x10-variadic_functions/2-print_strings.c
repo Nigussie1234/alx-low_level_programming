@@ -14,7 +14,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 va_list args;
 unsigned int i;  
-if (n == NULL)
+if (n == 0)
 printf("\n");
 return;
 char *stg;
@@ -28,7 +28,7 @@ printf("nil");
 if (i != n - 1)
 {
 if (separator == NULL)
-printf("%s\n", stg);
+printf("%s", stg);
 else
 printf("%s%s", stg,separator);
 }
