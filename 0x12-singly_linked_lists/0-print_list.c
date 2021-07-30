@@ -22,9 +22,9 @@ printf("[%d] (nil)\n", 0);
 else
 {
 printf("[%d] %s\n", h -> len, h -> str);
+h = h -> next;
 }
 h++;
-h = h -> next;
 }
 return (size);
 }
