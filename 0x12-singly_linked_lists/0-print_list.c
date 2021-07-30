@@ -14,7 +14,7 @@ size_t size;
 size = 0;
 while (h != NULL)
 {
-h++;
+size++;
 if (h -> str == NULL)
 printf("[%d] (nil)\n", 0);
 else
