@@ -1,5 +1,4 @@
 #include "lists.h"
-
 /**
  * print_list - prints all the elements of a list_t list
  * 
@@ -23,8 +22,8 @@ printf("[%d] (nil)\n", 0);
 else
 {
 printf("[%d] %s\n", h -> len, h -> str);
-h = h -> next;
 }
+h = h -> next;
 }
 return (size);
 }
