@@ -6,7 +6,7 @@
  *Return: length of a string
  */
 
-int _str(const char *s)
+int _strlen(const char *s)
 {
 int len = 0;
 while (s[len] != '\0')
@@ -43,7 +43,7 @@ length = 0;
 else
 {
 string = strdup(str);
-length = _str(str);
+length = _strlen(str);
 }
 new->len = length;
 new->str = string;
