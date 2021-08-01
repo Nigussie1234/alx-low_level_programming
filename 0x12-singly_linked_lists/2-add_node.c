@@ -5,6 +5,7 @@
  *
  *Return: length of a string
  */
+
 int _str(const char *s)
 {
 int len;
